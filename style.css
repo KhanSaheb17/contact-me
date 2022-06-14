@@ -1,0 +1,60 @@
+body{
+    background-color:#cfcfcf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align:center ;
+    min-height:40vh;
+    background-color:white;
+    border-radius:15px;
+}
+.content{
+  padding: 20px 0;
+}
+input,textarea{
+    background-color:none;
+    border:1.5px solid seagreen;
+    min-height: 30px;
+    max-height:100px;
+    width: 80%;
+    border-radius:7px;
+    margin-top:15px;
+}
+::placeholder{
+  padding:10px 0 0 13px; 
+  color:grey;
+}
+input.send{
+    background-color: seagreen;
+    border: none;
+    height:50px;
+    border-radius:10px;
+    margin:20px auto;
+    width:40%;
+    font-weight:bold ;
+    color: whitesmoke;
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+
+
+
+.copyright{
+    position:absolute;
+    bottom: 7px;
+    left:25vw;
+    font-size:16px;
+    color:gray;
+    margin:auto;
+    
+    
+}
+.button{
+  padding: 10px;
+  background-color: seagreen;
+  border-radius: 10px;
+  margin-top: 80px;
+  color: white;
+  text-decoration: none;
+}
